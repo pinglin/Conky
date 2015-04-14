@@ -116,11 +116,11 @@ ${font Liberation Sans:size=10}${color3}CPU Core 5:  ${alignr}${font Liberation 
 ###############
 # - NETWORK - #
 ###############
-${voffset 4}
+${voffset 10}
 ${font Liberation Sans:style=Bold:size=10}${color3}NETWORK ${hr 2}
 ${alignc}${font Liberation Sans:style=Bold:size=10}${color4}${addr eth0}${font}
 
 ${color3}bond0 ${alignr}Down:    ${font Liberation Sans:style=Bold:size=10}${color4}${downspeed bond0}${font} ${color3}Up:    ${font Liberation Sans:style=Bold:size=10}${color4}${upspeed bond0}${font} 
 #${alignr}${color2}${downspeedgraph bond0 12,80 900100 ffffff}	${alignr}${color2}${upspeedgraph bond0 12,80 900100 ffffff}
-${voffset 8}
-${color3}eth0 ${alignr}${color2}${downspeedgraph eth0 10,80 900100 ffffff}	${alignr}${color2}${upspeedgraph eth0 10,80 900100 ffffff}
+${voffset 2}
+${color3}eth0 ${alignr}${downspeedgraph eth0 10,80 900100 ffffff}	    ${alignr}${upspeedgraph eth0 10,80 900100 ffffff}
